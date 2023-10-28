@@ -1,23 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T19:54:04.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g-zerkujK_1lganQPJQc" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T21:01:58.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="MHrXFrXMuEeJ0LXvsw0e" version="22.0.8" type="github">
   <diagram name="Page-1" id="JcTLIUm3BI7bA0PVcp6d">
-    <mxGraphModel dx="2154" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mLvfb_zTIcYI7D1hQRsq-1" value="Client&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-363" y="25" width="30" height="60" as="geometry" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-26" value="CU System de réservation de vol&amp;nbsp;" style="swimlane;fontStyle=1;align=center;horizontal=1;startSize=30;collapsible=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2706" y="-255" width="753" height="684" as="geometry" />
         </mxCell>
-        <mxCell id="mLvfb_zTIcYI7D1hQRsq-2" value="Agent de reservtion" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-363" y="208" width="29" height="60" as="geometry" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-27" value="System de réservation de vol&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=164;height=41;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-26">
+          <mxGeometry width="428" height="568" relative="1" as="geometry">
+            <mxPoint x="211" y="50" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mLvfb_zTIcYI7D1hQRsq-3" value="Réserver un vol" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-209" y="6" width="140" height="70" as="geometry" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-33" value="Réserver un vol" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-27">
+          <mxGeometry x="59" y="81" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mLvfb_zTIcYI7D1hQRsq-4" value="Annuler la Réservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-199" y="123" width="140" height="70" as="geometry" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-34" value="Annuler la Réservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-27">
+          <mxGeometry x="59" y="178" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mLvfb_zTIcYI7D1hQRsq-5" value="Voir l&#39;historique de réservation&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-209" y="262" width="162" height="70" as="geometry" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-35" value="Voir les Réservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-27">
+          <mxGeometry x="51" y="266" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-39" value="Voir l&#39;historique de réservation&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-27">
+          <mxGeometry x="59" y="450" width="162" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-31" value="Client&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-26">
+          <mxGeometry x="72" y="123" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-32" value="Agent de reservtion" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;strokeColor=#000000;" vertex="1" parent="mLvfb_zTIcYI7D1hQRsq-26">
+          <mxGeometry x="72" y="493" width="29" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mLvfb_zTIcYI7D1hQRsq-26" target="mLvfb_zTIcYI7D1hQRsq-33">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="117" y="167" as="sourcePoint" />
+            <mxPoint x="197" y="167" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-40" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mLvfb_zTIcYI7D1hQRsq-26" target="mLvfb_zTIcYI7D1hQRsq-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="119" y="167" as="sourcePoint" />
+            <mxPoint x="207" y="215" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mLvfb_zTIcYI7D1hQRsq-26" target="mLvfb_zTIcYI7D1hQRsq-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="118" y="166" as="sourcePoint" />
+            <mxPoint x="209.0044444444443" y="232.9977777777777" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-44" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="mLvfb_zTIcYI7D1hQRsq-26" target="mLvfb_zTIcYI7D1hQRsq-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="118" y="533.9966666666668" as="sourcePoint" />
+            <mxPoint x="198" y="533.9966666666668" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
