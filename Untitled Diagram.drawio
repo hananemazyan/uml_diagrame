@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T19:22:28.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="dwXDatFDIPEpBfZCWg33" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T19:54:04.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g-zerkujK_1lganQPJQc" version="22.0.8" type="github">
   <diagram name="Page-1" id="JcTLIUm3BI7bA0PVcp6d">
-    <mxGraphModel>
+    <mxGraphModel dx="2154" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-1" value="Client&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-363" y="25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-2" value="Agent de reservtion" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-363" y="208" width="29" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-3" value="Réserver un vol" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-209" y="6" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-4" value="Annuler la Réservation" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-199" y="123" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mLvfb_zTIcYI7D1hQRsq-5" value="Voir l&#39;historique de réservation&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-209" y="262" width="162" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
